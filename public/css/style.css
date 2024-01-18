@@ -116,3 +116,10 @@ body {
   height: 400px;
   width: 80vh;
 }
+
+/* media query ke sath */
+@media only screen and (max-width: 767px) {
+  .container-fluid {
+    background-color: #a0e1f3;
+  }
+}
