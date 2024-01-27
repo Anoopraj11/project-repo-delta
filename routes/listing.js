@@ -10,7 +10,6 @@ const upload = multer({ storage });
 
 // router.route 1st
 router
-  .route("/")
   // index route
   .get(wrapAsync(listingController.index))
   //  create route
