@@ -70,9 +70,9 @@ const sessionOptions = {
 };
 
 // // root diaretory
-// app.get("/", (req, res) => {
-//   res.send("hii im a root");
-// });
+app.get("/", (req, res) => {
+  res.send("hii im a root");
+});
 
 // session and flash routes
 app.use(session(sessionOptions));
